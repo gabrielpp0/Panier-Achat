@@ -1,0 +1,32 @@
+[
+    {
+        "id": "prd0001",
+        "nom": "Masque",
+        "prix": "13.99"
+    },
+    {
+        "id": "prd0002",
+        "nom": "T-shirt-1",
+        "prix": "24.99"
+    },
+    {
+        "id": "prd0003",
+        "nom": "T-shirt-2",
+        "prix": "24.99"
+    },
+    {
+        "id": "prd0004",
+        "nom": "Hoodie classique",
+        "prix": "39.99"
+    },
+    {
+        "id": "prd0005",
+        "nom": "Chemise manche courte",
+        "prix": "39.99"
+    },
+    {
+        "id": "prd0006",
+        "nom": "Pantalon Jogging",
+        "prix": "27.99"
+    }
+]
