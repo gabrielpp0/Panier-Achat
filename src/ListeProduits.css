@@ -1,0 +1,24 @@
+.ListeProduits {
+  margin: 40px;
+}
+
+.ListeProduits h2 {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  border-bottom: 2px solid #555;
+}
+
+.ListeProduits ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=ListeProduits.css.map */

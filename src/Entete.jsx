@@ -1,8 +1,10 @@
-import './Entete.css';
+import './Entete.scss';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import Badge from '@material-ui/core/Badge';
 
 function Entete(props) {
     return (
-        <header>
+        <header className="Entete">
             <div>
                 logo
             </div>
@@ -16,7 +18,9 @@ function Entete(props) {
             </ul>
             <ul className="navUtilisateur">
                 <li>
-                    Panier
+                    <Badge badgeContent="5" color="secondary">
+                        <ShoppingCartIcon />
+                    </Badge>
                 </li>
                 <li>
                     Mon compte
