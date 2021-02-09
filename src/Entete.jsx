@@ -1,8 +1,16 @@
 import './Entete.scss';
+import SommairePanier from './SommairePanier';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import Badge from '@material-ui/core/Badge';
 
 function Entete(props) {
+    let etatCacherSommaire = true;
+
+    function basculerSommairePanier(props) {
+        etatCacherSommaire = (etatCacherSommaire) ? false : true;
+        console.log(etatCacherSommaire);
+    }
+
     return (
         <header className="Entete">
             <div>
@@ -18,9 +26,10 @@ function Entete(props) {
             </ul>
             <ul className="navUtilisateur">
                 <li>
-                    <Badge badgeContent="5" color="secondary">
+                    <Badge onClick={basculerSommairePanier} badgeContent="5" color="secondary">
                         <ShoppingCartIcon />
                     </Badge>
+                    <SommairePanier cacher={etatCacherSommaire} />
                 </li>
                 <li>
                     Mon compte
